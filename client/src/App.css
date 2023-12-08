@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+  height: 300px;
+  width: 200px;
+}
+
+body{
+  background-color: rgb(232, 232, 201);
+}
+
+.quote-container {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(234, 215, 93);
+  color: rgb(255, 255, 224);
+  margin: auto;
+  border-radius: 8px;
+  width: 70%;
+}
+
+.quote-content {
+  font-weight: bold;
+  background-color: rgb(253, 253, 204);
+  color: rgb(255, 221, 0);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+}
+
+input {
+  padding: 8px;
+  margin: 10px;
+  margin-right: 8px;
+  width: 40%;
+  border: 1px solid rgb(255, 255, 224);
+  border-radius: 4px;
+  background-color: rgb(255, 221, 0);
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+button {
+  font-weight: bold;
+  padding: 8px 16px;
+  background-color: rgb(255, 255, 224);
+  color: rgb(255, 221, 0);
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+button:hover {
+  border: 1px solid;
+  border-color: rgb(255, 255, 224);
+  background-color: rgb(255, 221, 0);
+  color: rgb(255, 255, 224);
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-weight: bold;
+  background-color: rgb(253, 253, 204);
+  color: rgb(255, 221, 0);;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.timestamp {
+  color: #777;
+  font-size: 14px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 700px) {
+  button {
+    font-size: 0.8em;
+    padding: 4px;
+  }
+
+  input {
+    font-size: 0.8em;
+    padding: 4px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .App {
+    margin: 10px;
+    width: 400px;
+  }
+
+  .quote-container {
+    font-size: 14px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .quote-content {
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 200px;
+    font-size: 0.8em;
+  }
+
+  li {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 300px;
+    font-size: 0.8em;
+  }
+}
